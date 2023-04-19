@@ -1,0 +1,63 @@
+body{
+  margin: 0;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.nav{
+  display: flex;
+  align-items: center;
+  height: 50px;
+  padding:30px 25px;
+}
+.sBootstrap{
+  margin-right: auto;
+  color:black;
+  background-color:white;
+  padding: 10px;
+  border-radius: 10px;
+}
+.nav > a{
+  margin-right:15px;
+}
+.titleCard{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.titleCard > h1 {
+  font-size:xx-large
+}
+.header{
+  background-image:url(./src/home-bg.jpg);
+  height: 550px;
+}
+.blogList{
+  margin-left: 490px;
+  /* display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 20px; */
+  inline-size: 600px;
+  overflow-wrap: break-word;
+}
+.blogList > h2 {
+  font-size: xx-large;
+  font-weight:bolder;
+}
+.blogList > h3 {
+  font-weight: lighter;
+  font-size:x-large;
+}
+
+.break{
+  width: 95%;
+}
+.footer > button {
+  padding: 15px;
+  width: 125px;
+  color: white;
+  background-color:#0085a1;
+  /* border-color: #0085a1; */
+  border-radius: 15px;
+  margin-left: 950px;
+  margin-top: 20px;
+}
